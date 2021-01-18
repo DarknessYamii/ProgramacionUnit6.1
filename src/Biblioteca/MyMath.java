@@ -27,7 +27,7 @@ public class MyMath {
 	 * @param variable
 	 * @param mayor
 	 * @param menor
-	 * @return 
+	 * @return
 	 */
 	public static int randomVar(int variable, int mayor, int menor) {
 		Random r = new Random();

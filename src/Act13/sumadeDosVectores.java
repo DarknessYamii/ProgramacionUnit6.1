@@ -14,25 +14,25 @@ import java.util.Random;
 public class sumadeDosVectores {
 
 	public static void main(String[] args) {
-		int mayor=-9999,i;
+		int mayor = -9999, i;
 		int A[] = new int[15];
 		int B[] = new int[15];
 		int C[] = new int[15];
 		Random r = new Random();
-		for(i=0;i<A.length;i++) {
+		for (i = 0; i < A.length; i++) {
 			A[i] = r.nextInt(10);
 		}
-		for(i=0;i<B.length;i++) {
+		for (i = 0; i < B.length; i++) {
 			B[i] = r.nextInt(10);
 		}
-		for(i=0;i<C.length;i++) {
-			C[i] = A[i]+B[i];
-			if(mayor<C[i]) {
-				mayor=C[i];
+		for (i = 0; i < C.length; i++) {
+			C[i] = A[i] + B[i];
+			if (mayor < C[i]) {
+				mayor = C[i];
 			}
 		}
 		System.out.println(Arrays.toString(C));
-		System.out.println("El mayor es "+mayor);
+		System.out.println("El mayor es " + mayor);
 	}
 
 }

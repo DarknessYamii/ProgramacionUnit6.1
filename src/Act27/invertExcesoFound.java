@@ -45,13 +45,13 @@ public class invertExcesoFound {
 
 		// c. Realizar la búsqueda de una palabra que introducimos por teclado dentro
 		// del String original.
-		
+
 		System.out.println("Que palabra quieres buscar?");
 		String buscar = sc.nextLine();
-		if(MyString.buscarPalabra(s.toCharArray(), buscar.toCharArray())) {
-			System.out.println("La palabra "+buscar+" se encuentra en la frase");
-		}else {
-			System.out.println("La palabra "+buscar+" NO se encuentra en la frase");
+		if (MyString.buscarPalabra(s.toCharArray(), buscar.toCharArray())) {
+			System.out.println("La palabra " + buscar + " se encuentra en la frase");
+		} else {
+			System.out.println("La palabra " + buscar + " NO se encuentra en la frase");
 		}
 	}
 

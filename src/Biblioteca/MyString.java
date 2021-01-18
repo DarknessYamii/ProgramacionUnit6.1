@@ -150,8 +150,10 @@ public class MyString {
 		}
 		return true;
 	}
+
 	/**
 	 * Transponer pero cadenas de caracteres
+	 * 
 	 * @param arr
 	 * @return
 	 */
@@ -165,20 +167,23 @@ public class MyString {
 		}
 		return Trans;
 	}
+
 	/**
 	 * Genera una Matriz con letras aleatorias
+	 * 
 	 * @param arr
 	 * @param menor
 	 * @param mayor
 	 */
-	public static void randomLetras(char[][] arr, int menor, int mayor){
+	public static void randomLetras(char[][] arr, int menor, int mayor) {
 		Random r = new Random();
 		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j<arr.length;j++) {
-			arr[i][j] = (char) (r.nextInt(mayor - menor ) + menor);
+			for (int j = 0; j < arr.length; j++) {
+				arr[i][j] = (char) (r.nextInt(mayor - menor) + menor);
 			}
 		}
 	}
+
 	/**
 	 * deepToString pero bonito
 	 * 

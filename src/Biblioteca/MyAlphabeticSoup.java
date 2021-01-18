@@ -58,7 +58,9 @@ public class MyAlphabeticSoup {
 	}
 
 	/**
-	 * Selecciona una posicion y una forma para introducir las palabras dentro de la sopa
+	 * Selecciona una posicion y una forma para introducir las palabras dentro de la
+	 * sopa
+	 * 
 	 * @param longPalabra
 	 * @param posPalabra
 	 */

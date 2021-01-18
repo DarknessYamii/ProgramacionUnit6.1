@@ -3,9 +3,10 @@ package Act40;
 import java.util.Scanner;
 
 import Biblioteca.MyMath;
+
 /**
- * Act40 de expansion de array  String
- * Elabora el triangulo de Pascal
+ * Act40 de expansion de array String Elabora el triangulo de Pascal
+ * 
  * @author andre
  *
  */

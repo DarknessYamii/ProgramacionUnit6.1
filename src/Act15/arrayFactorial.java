@@ -6,8 +6,7 @@ import Biblioteca.MyArrays;
 import Biblioteca.MyMath;
 
 /**
- * Act15 de expansion de arrays 
- * Leer una secuencia de 20 números y almacenar en
+ * Act15 de expansion de arrays Leer una secuencia de 20 números y almacenar en
  * un vector sus factoriales.
  * 
  * @author andre

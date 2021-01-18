@@ -3,9 +3,8 @@ package Act39;
 import java.util.Scanner;
 
 /**
- * Act39 expansion array String
- * Realiza un programa con un método recursivo que muestre por pantalla la serie
- * de Fibonacci.
+ * Act39 expansion array String Realiza un programa con un método recursivo que
+ * muestre por pantalla la serie de Fibonacci.
  * 
  * @author andre
  *

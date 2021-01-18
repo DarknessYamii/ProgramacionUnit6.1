@@ -18,12 +18,12 @@ public class esCapicua {
 		System.out.println("Introduzca un numero");
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		if(MyMath.esCapicua(n)) {
-			System.out.println("El numero "+n+ " es Capicua");
-			System.out.println(MyMath.esCapicua(n));//Por si necesita mas informacion sobre si es true o false
-		}else {
-			System.out.println("El numero "+n+ " NO es Capicua");
-			System.out.println(MyMath.esCapicua(n)); //Por si necesita mas informacion sobre si es true o false
+		if (MyMath.esCapicua(n)) {
+			System.out.println("El numero " + n + " es Capicua");
+			System.out.println(MyMath.esCapicua(n));// Por si necesita mas informacion sobre si es true o false
+		} else {
+			System.out.println("El numero " + n + " NO es Capicua");
+			System.out.println(MyMath.esCapicua(n)); // Por si necesita mas informacion sobre si es true o false
 		}
 
 	}

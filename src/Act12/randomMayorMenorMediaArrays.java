@@ -36,7 +36,7 @@ public class randomMayorMenorMediaArrays {
 
 		}
 		Arrays.sort(array);
-		//Busqueda de Moda
+		// Busqueda de Moda
 		for (i = 0; i < array.length; i++) {
 			int vecesQueSeRepite = 0;
 			for (j = 0; j < array.length; j++) {

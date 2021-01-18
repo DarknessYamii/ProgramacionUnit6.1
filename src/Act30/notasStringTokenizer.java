@@ -17,7 +17,7 @@ public class notasStringTokenizer {
 
 	public static void main(String[] args) {
 
-		String notas = "Juan Carlos \n 8.5 \n Andrés \n 4.9 \n Pedro \n 3.8 \n Juan \n 6.3";
+		String notas = "Juan Carlos \n 8.5 \nAndrés \n 4.9 \nPedro \n 3.8 \nJuan \n 6.3";
 		StringTokenizer str = new StringTokenizer(notas, "\n");
 		while (str.hasMoreTokens()) {
 			System.out.println("El Alumno " + str.nextToken() + "ha sacado un" + str.nextToken());

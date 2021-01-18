@@ -19,10 +19,10 @@ public class esPalidromo {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduzca una palabra");
 		String s = sc.next();
-		if(MyString.esPalindromo(s.toLowerCase())) {
-			System.out.println("La palabra "+s+" es un palidromo");
-		}else {
-			System.out.println("La palabra "+s+" NO es un palidromo");
+		if (MyString.esPalindromo(s.toLowerCase())) {
+			System.out.println("La palabra " + s + " es un palidromo");
+		} else {
+			System.out.println("La palabra " + s + " NO es un palidromo");
 		}
 	}
 

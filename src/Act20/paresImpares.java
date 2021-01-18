@@ -18,9 +18,8 @@ public class paresImpares {
 	public static void main(String[] args) {
 		int A[] = new int[100];
 		MyArrays.randomArr(A, 1000, 1);
-		System.out.println("Los elementos pares son: "+Arrays.toString(MyArrays.separarPar(A)));
-		System.out.println("Los elementos impares son: "+Arrays.toString(MyArrays.separarImpar(A)));
-
+		System.out.println("Los elementos pares son: " + Arrays.toString(MyArrays.separarPar(A)));
+		System.out.println("Los elementos impares son: " + Arrays.toString(MyArrays.separarImpar(A)));
 
 	}
 

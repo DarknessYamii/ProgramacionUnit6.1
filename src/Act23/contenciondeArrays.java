@@ -21,7 +21,12 @@ public class contenciondeArrays {
 		System.out.println("Array mayor: " + Arrays.toString(A));
 		System.out.println("Array menor: " + Arrays.toString(B));
 		System.out.println("Contiene array mayor, a array menor(" + Arrays.toString(B) + "): ");
-		System.out.println(MyArrays.contenido(A, B));
+		if (MyArrays.contenido(A, B)) {
+			System.out.println("Lo contiene");
+
+		} else {
+			System.out.println("No lo contiene");
+		}
 	}
 
 }

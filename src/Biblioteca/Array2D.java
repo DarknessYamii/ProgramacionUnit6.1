@@ -7,7 +7,7 @@ public class Array2D {
 	private int array[][];
 	private int count;
 
-	public Array2D(int cols ) {
+	public Array2D(int cols) {
 		array = new int[10][cols];
 		count = 0;
 	}
@@ -20,7 +20,7 @@ public class Array2D {
 		array[count] = arr;
 		count++;
 	}
-	
+
 	public int[][] getMatrix() {
 		return Arrays.copyOf(array, count);
 	}

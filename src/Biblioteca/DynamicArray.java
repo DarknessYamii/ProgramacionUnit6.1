@@ -7,7 +7,6 @@ public class DynamicArray {
 	private int array[];
 	private int count;
 
-
 	public DynamicArray() {
 		array = new int[5];
 		count = 0;

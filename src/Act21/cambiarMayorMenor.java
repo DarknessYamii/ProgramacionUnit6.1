@@ -5,8 +5,9 @@ import java.util.Arrays;
 import Biblioteca.MyArrays;
 
 /**
- * Act21 de la expansion de arrays
- * Dadas dos matrices A y B intercambiar los mínimos de A con los máximos de B.
+ * Act21 de la expansion de arrays Dadas dos matrices A y B intercambiar los
+ * mínimos de A con los máximos de B.
+ * 
  * @author andre
  *
  */
@@ -19,8 +20,11 @@ public class cambiarMayorMenor {
 		MyArrays.randomArr(B, 10, 1);
 		System.out.println(Arrays.deepToString(A));
 		System.out.println(Arrays.deepToString(B));
-		System.out.println(Arrays.deepToString(MyArrays.linearSearch(B, MyArrays.mayorArray(B))));
-		System.out.println(Arrays.deepToString(MyArrays.linearSearch(A, MyArrays.menorArray(A))));
+		// Posiciones que va a cambiar
+//		System.out.println(Arrays.deepToString(MyArrays.linearSearch(B, MyArrays.mayorArray(B))));
+//		System.out.println(Arrays.deepToString(MyArrays.linearSearch(A, MyArrays.menorArray(A))));
+		System.out.println("El numero ha intercambiar por los menores de A es :" + MyArrays.mayorArray(B));
+		System.out.println("El numero ha intercambiar por los mayores de B es :" + MyArrays.menorArray(A));
 		MyArrays.swaper(A, B);
 		System.out.println(Arrays.deepToString(A));
 		System.out.println(Arrays.deepToString(B));

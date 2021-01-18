@@ -6,8 +6,9 @@ import java.util.Scanner;
 import Biblioteca.MyArrays;
 
 /**
- * Act16 de las actividades de expansion de arrays
- * Dado dos matrices A y B obtener la suma.
+ * Act16 de las actividades de expansion de arrays Dado dos matrices A y B
+ * obtener la suma.
+ * 
  * @author andre
  *
  */

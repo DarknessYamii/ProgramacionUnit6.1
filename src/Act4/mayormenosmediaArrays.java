@@ -20,13 +20,15 @@ public class mayormenosmediaArrays {
 		for(int i = 0 ; i<array.length;i++) {
 			int num = sc.nextInt();
 			array[i] = num;
-			media = array[i]+media;
-			//Ponemos if para que dentro de este se intercambien los valores de la variable mayor si se cumple la condicion
-			if(mayor < array[i]) {
+			media = array[i] + media;
+			// Ponemos if para que dentro de este se intercambien los valores de la variable
+			// mayor si se cumple la condicion
+			if (mayor < array[i]) {
 				mayor = array[i];
 			}
-			//Ponemos if para que dentro de este se intercambien los valores de la variable menor si se cumple la condicion
-			if(menor>array[i]) {
+			// Ponemos if para que dentro de este se intercambien los valores de la variable
+			// menor si se cumple la condicion
+			if (menor > array[i]) {
 				menor = array[i];
 			}
 		}

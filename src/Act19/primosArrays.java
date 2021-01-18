@@ -16,7 +16,7 @@ public class primosArrays {
 		int A[] = new int[10];
 		MyArrays.randomArr(A, 100,1 );
 		System.out.println(Arrays.toString(A));
-		if(!Arrays.equals(MyArrays.primoArray(A), new int[0])) {
+		if (!Arrays.equals(MyArrays.primoArray(A), new int[0])) {
 		System.out.println("Los numeros primos dentro del array son: "+Arrays.toString(MyArrays.primoArray(A)));
 		}else {
 			System.out.println("No hay numeros primos");
